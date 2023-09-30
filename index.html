@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <!--Section Home-->
+    <section id="home">
+      <!--Navbar-->
+      <div class="navbar">
+        <nav>
+          <!--Menambahkan logo di pojok kiri navbar-->
+          <a href="index.html" class="logo">Web Profile</a>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--Konten Home-->
+      <div class="home">
+        <p>Hi!</p>
+        <p>I'm Mirah</p>
+        <p>Welcome to my Web Profile</p>
+        <br />
+        <p>I'm a student of Information Technology at Udayana University</p>
+        <p>I have a strong enthusiasm for try new things</p>
+      </div>
+      <img class="picture" src="photo/mirah(2).jpg" alt="gambar" />
+      <img class="background" src="photo/bg.jpg" alt="background" />
+    </section>
+
+    <!--Section About-->
+    <section id="about">
+      <div class="about">
+        <div class="about-desc">
+          <p>About Me</p>
+          <p>Here's my Biodata</p>
+          <p>Introduction</p>
+          <p>
+            My name is Putu Mirah Widyasathi, I'm 19 years old. I was born in Kuta, October 5 2003. I'm from Bali and I live in Klungkung Distric I'm student of Information Technology study program at Udayana University.Now I'm in fifth
+            semester
+          </p>
+          <p>
+            As a student, I have achieved satisfactory academic results. I have responsibility in completing my tasks and exhibits excellent teamwork skills. And also I have gained valuable experience in the field of public relations
+            through her involvement in a previous organization.
+          </p>
+        </div>
+
+        <!--Membuat Row dan Column-->
+        <div class="row">
+          <div class="column" style="background-color: #e8c6d4">
+            <h2>Education</h2>
+            <li>SMA Negeri 1 Semarapura June 2018-2021 of Science Major</li>
+            <li>SMP Negeri 2 Semarapura Tengah July 2015-2018</li>
+            <li>SD Negeri 2 Semarapura Tengah July 2009-2015</li>
+          </div>
+          <div class="column" style="background-color: #eaabc6">
+            <h2>Experience</h2>
+            <li>Co-Head of Division Partnership on April-July 2023 at Mataharikita.co</li>
+            <li>Coordinator of Fundraising Division on June-October 2023 at UFONITY 2023</li>
+            <li>Staff of Public Relation on December 2022 at Committe MUSMA FOCUS 2022</li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section Skills-->
+    <section id="skill">
+      <div class="skill">
+        <div class="skill-desc">
+          <p>Skill</p>
+          <p>
+            I possesses computer operating skills and a keen interest in studying information technology, particularly in the realm of digital design. Apart from that, I also have skills in public speaking, presentation and problem solving
+          </p>
+        </div>
+
+        <!--Membuat Box Container-->
+        <div class="box-container">
+          <div class="box-1">
+            <span>1</span>
+            <p>Microsoft Office</p>
+            <p>I can operate all about Microsoft Office like Word, Excel, Power Point and many more</p>
+          </div>
+          <div class="box-2">
+            <span>2</span>
+            <p>Web Development</p>
+            <p>For now I study about how to develop a website. Therefore I can operate the any tools used in creating a website its like code editor, and also I'm able to designing a website</p>
+          </div>
+          <div class="box-3">
+            <span>3</span>
+            <p>Team Work</p>
+            <p>I can adapt to new team and carry out teamwork professionally and responsibly</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section Contact-->
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-desc">
+          <p>Contact</p>
+          <p>To contact me further, you can fill in the form below</p>
+        </div>
+
+        <!--Form Contact-->
+        <form action="form.html">
+          <label for="fname" style="font-family: Poppins, sans-serif">Nama Depan</label>
+          <input type="text" name="namadepan" id="fname" placeholder="Nama Depan" />
+          <label for="bname" style="font-family: Poppins, sans-serif">Nama Belakang</label>
+          <input type="text" name="namabelakang" id="bname" placeholder="Nama Belakang" />
+          <label for="subject" style="font-family: Poppins, sans-serif">Subjek</label>
+          <input type="text" name="subjek" id="subject" placeholder="Subjek" />
+
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+
+    <!--Section Footer-->
+    <footer>
+      <p>Here's my Social Media</p>
+      <p>Below are my social media that can be contacted</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook-square"></i></a>
+        <a href="#"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://instagram.com/mirahwidyaa?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
